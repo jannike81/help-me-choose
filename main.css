@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 150px;
-  background-color: #AA048E;
+  background-color: #930077;
 }
 h1{
   font-weight: lighter;
@@ -29,7 +29,7 @@ input {
   margin-top: 10px;
 }
 button{
-  background:#710AF2;
+  background:#ffbd39;
   border:0 none;
   cursor:pointer;
   -webkit-border-radius: 5px;
