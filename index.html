@@ -12,8 +12,23 @@
       <div class="inputs">
         <input placeholder="Something"></input>
       </div>
+      <div class="resultSection"></div>
       <button class="addOption">Add</button>
     </div>
     <button>Go!</button>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.resultSection').hide()
+        var add_option = function(){
+        $('.inputs').append('<input></input>')
+      }
+      $('.addOption').click(add_option)
+    //change backgroundcolour when clicking on the title
+      $("h1").click(function(){
+        $("body").toggleClass("changebackground");
+        })
+      })
+    </script>
   </body>
 </html>
