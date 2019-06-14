@@ -33,6 +33,8 @@
         var submit = function() {
           $('.inputSection').hide()
           $('.resultSection').css('display', 'flex')
+          $('h1').hide()
+          $('h1').replaceWith('<h1>The winner is..</h1>')
           $('input').each(function() {
             options.push($(this).val())
           })
